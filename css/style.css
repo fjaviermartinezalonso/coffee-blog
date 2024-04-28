@@ -62,3 +62,64 @@ img {
 .text-center {
     text-align: center;
 }
+
+/* Header */
+.header {
+    background-image: url(../img/banner.jpg);
+    height: 60rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* las img hay que centrarlas en el eje X e Y (queda mejor center si cover) */
+}
+
+.header__texto {
+    color: var(--blanco);
+    text-align: center;
+    margin-top: 5rem;
+}
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .barra {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo {
+    color: var(--blanco);
+}
+.logo__nombre {
+    font-weight: normal;
+}
+.logo__bold {
+    font-weight: bold;
+}
+
+.navigation {
+   display: flex;
+   gap: 0 2rem;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+@media (min-width: 768px) {
+    .navigation {
+        flex-direction: row;
+        margin-right: 3rem;
+    }
+}
+
+.navigation__link {
+    color: var(--blanco);
+    width: 8rem;
+    font-size: 1.8rem;
+}
+.navigation__link:hover {
+    font-weight: bold;
+}
