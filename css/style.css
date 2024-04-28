@@ -27,6 +27,7 @@ body {
 .container {
     max-width: 120rem;
     width: 90%;
+    /* Otra opción es width: min(90%, 120rem);*/
     margin: 0 auto;
 }
 
@@ -170,4 +171,11 @@ img {
 .courses {
     padding-left: 0;
     list-style-type: none;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--negro);
+    padding: 2rem 0;
+    margin-top: 4rem;
 }
