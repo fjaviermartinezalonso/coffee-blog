@@ -48,6 +48,7 @@ h3 {
 }
 h4 {
     font-size: 2.8rem;
+    line-height: 1.2;
 }
 
 img {
@@ -62,6 +63,9 @@ img {
 }
 .text-center {
     text-align: center;
+}
+.font-bold {
+    font-weight: bold;
 }
 
 /* Header */
@@ -97,9 +101,6 @@ img {
 }
 .logo__nombre {
     font-weight: normal;
-}
-.logo__bold {
-    font-weight: bold;
 }
 
 .navigation {
@@ -160,4 +161,13 @@ img {
 }
 .button--primary {
     background-color: var(--negro);
+}
+.button--secondary {
+    background-color: var(--primario);
+}
+
+/* Sidebar */
+.courses {
+    padding-left: 0;
+    list-style-type: none;
 }
