@@ -179,3 +179,12 @@ img {
     padding: 2rem 0;
     margin-top: 4rem;
 }
+
+/* Nosotros */
+@media (min-width: 768px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+    }
+}
